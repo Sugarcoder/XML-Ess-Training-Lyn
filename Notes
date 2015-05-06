@@ -1,0 +1,34 @@
+XML = Extensible Markup Language
+
+
+DOM = Document Object Model 
+- A standard set of API for working with API content.
+- Each thing in the DOM (ex. Head, Body, Title, etc) is called 'node'.
+
+- nodeName = name of the node
+- nodeType = the node's type (what kind of node it is)
+- nodeValue = value of the node 
+- attributes = only attributes of the element
+- parentNode
+- childNode
+- firstChild, lastChild
+
+
+Document Functions & Properties: 
+- appendChild() = inserts a new node
+- removeChild()
+- insertBerfore()
+- replaceChild()
+
+- documentElement
+- createElement()
+- createTextNode()
+- createComment()
+- createCDATASection()
+- getElementByTagName() = find all <p>
+- getElementById() = retrieve the Id name
+- getAttribute()
+- setAttribute() = set the value of an attribute on an element
+- removeAttribute() = remove an element from an attribut
+- innerHTML = gets or sets the HTML content of a given tag
+- data = gets the text data of an element, comment, or text node 
